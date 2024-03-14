@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body, html {
+    background-color: #eaecfa;
+    height: 100%;
+    width: 100%;
+}
+
+.text-user-container{
+    color: #005187;
+    width: 60%;
+    height: 50%;
+}
+
+.result-processed-text{
+    background-color: #FFFFFF;
+    width: 33%;
+    height: 60%;
+}
+
+.buttons-actions{
+    width: 60%;
+    height: 20%;
+}
+
+#encrypt-button{
+    background-color: #09396f;
+    color: #FFFFFF;
+    width: 40%;
+    height: 80%;
+}
+
+#decrypt-button{
+    background-color: #adb1b9;
+    border-color: #09396f;
+}
+
