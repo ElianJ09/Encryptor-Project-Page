@@ -10,6 +10,7 @@ body, html {
     width: 100%;
 }
 
+
 .container-body{
     width: 100%;
     height: 100%;
@@ -28,7 +29,7 @@ body, html {
 
 .text-user-container{
     width: 100%;
-    height: 60%;
+    height: 80%;
 }
 
 #text-user{
@@ -41,32 +42,50 @@ body, html {
     margin: 20px;
 }
 
-.result-processed-text{
-    background-color: #FFFFFF;
-    width: 35%;
-    height: 90%;
-    border-radius: 20px;
-    padding: 20px;
-}
-
 .buttons-actions{
-    background-color: #adb1b9;
     width: 100%;
-    height: 30%;
+    height: 10%;
 }
 
 #encrypt-button{
     background-color: #09396f;
     color: #FFFFFF;
+    border-color: #09396f;
+    border-width: 1px;
+    border-radius: 10px;
     width: 40%;
-    height: 100%;
+    height: auto;
 }
 
 #decrypt-button{
     background-color: #adb1b9;
     border-color: #09396f;
+    border-width: 1px;
     border-radius: 10px;
     width: 40%;
-    height: 100%;
+    height: auto;
 }
 
+.result-processed-text{
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+#result-text{
+    margin-top: 10%;
+    width: 90%;
+    height: 80%;
+}
+
+#copy-button{
+    background-color: #adb1b9;
+    border-color: #09396f;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 60%;
+    height: auto;
+}
