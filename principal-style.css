@@ -10,32 +10,63 @@ body, html {
     width: 100%;
 }
 
+.container-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container-principal-text-user{
+    width: 65%;
+    height: 100%;
+}
+
+.name{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .text-user-container{
+    width: 100%;
+    height: 60%;
+}
+
+#text-user{
+    width: 95%;
+    height: 90%;
+    border-color: #eaecfa;
+    background-color: #eaecfa;
     color: #005187;
-    width: 60%;
-    height: 50%;
+    text-align: justify;
+    margin: 20px;
 }
 
 .result-processed-text{
     background-color: #FFFFFF;
-    width: 33%;
-    height: 60%;
+    width: 35%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .buttons-actions{
-    width: 60%;
-    height: 20%;
+    background-color: #adb1b9;
+    width: 100%;
+    height: 30%;
 }
 
 #encrypt-button{
     background-color: #09396f;
     color: #FFFFFF;
     width: 40%;
-    height: 80%;
+    height: 100%;
 }
 
 #decrypt-button{
     background-color: #adb1b9;
     border-color: #09396f;
+    border-radius: 10px;
+    width: 40%;
+    height: 100%;
 }
 

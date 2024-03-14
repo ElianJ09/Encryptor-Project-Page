@@ -14,16 +14,20 @@
 </head>
 <body>
     <div class="container-body">
-        <div class="name-page">Encryptor Online</div>
-        <div class="text-user-container">
-            <input type="text" class="text-user">
-        </div>
-        <div class="bottons-actions">
-            <button id="encrypt-button">Encriptar</button>
-            <button id="decrypt-button">Desencriptar</button>
+        <div class="container-principal-text-user">
+            <div class="name-page">
+                <h1 class="name">Encryptor Online</h1>
+            </div>
+            <div class="text-user-container">
+                <textarea name="text" id="text-user"></textarea>
+            </div>
+            <div class="bottons-actions">
+                <button id="encrypt-button"><h1>Encriptar</h1></button>
+                <button id="decrypt-button"><h1>Desencriptar</h1></button>
+            </div>
         </div>
         <div class="result-processed-text">
-            Texto encriptado aqui
+            <h2 id = "resultt-text">Texto encriptado aqui</h2>
             <button id="copy-processed-text">Copiar</button>
         </div>
     </div>
